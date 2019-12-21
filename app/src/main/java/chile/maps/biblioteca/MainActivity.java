@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Github(View view)
     {
-        String[] datos = {"Farenheit", "Revival", "El Alquimista"};
+        String[] datos = {"Farenheit", "Revival", "El Alquimista", "El Poder", "Despertar"};
         Intent i = new Intent(this, Github_act.class);
         i.putExtra("libros", datos);
         startActivity(i);
